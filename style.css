@@ -44,19 +44,38 @@ h2 {
     vertical-align: middle;
 }
 .menu {
-list-style: none;
-position: absolute;
-top: 10px;
-right: 30px;
+background: #ffffff;
+width: 100%;
+margin-top: 0px;
+position: fixed;
+top: 0px;
 z-index: 10;
 cursor: pointer;
 }
 .link{
-float: left;
-padding-top: 5px;
-padding-right: 9px;
-padding-left: 9px;
-padding-bottom: 5px;
+display: inline;
+padding-right: 25px;
+padding-left: 33px;
 font-family: fantasy;
 font-size: 20px;
+}
+.link:hover {
+ font-size: 25px;
+ text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+#writings a {
+    text-decoration: underline !important;
+    color: green !important;
+}
+#contact {
+    background: grey;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact1 h3 {
+    display: inline;
 }
