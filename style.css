@@ -1,13 +1,10 @@
 body {
-    margin: 0;
-    padding-top: 800px;
     text-align: center;
 }
 .profile {
     border-radius: 50%;
 }
 #welcome {
-    position: absolute;
     bottom: 0;
     background: linear-gradient(#ebd460 0%, rgb(236, 128, 12) 100%);
     display: table;
@@ -32,6 +29,7 @@ h2 {
 #bio {
     font-family: 'Cinzel Decorative', cursive;
     padding: 50px;
+    text-align: center;
 }
 .line {
     height: 6px;
@@ -43,14 +41,10 @@ h2 {
     display: table-cell;
     vertical-align: middle;
 }
-.menu {
-background: #ffffff;
-width: 100%;
-margin-top: 0px;
-position: fixed;
-top: 0px;
-z-index: 10;
-cursor: pointer;
+.my_nav_bar{
+    position:sticky;
+    top: 0;
+    z-index:99999;
 }
 .link{
 display: inline;
